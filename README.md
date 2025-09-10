@@ -25,12 +25,22 @@ The borrower interface for Krida's product. This application allows borrowers to
 Here are some screenshots of the borrower interface:
 
 ### Dashboard
-
-### Loan Application Form
+<img width="850" alt="Screenshot 2025-08-12 at 11 00 56 AM" src="https://github.com/user-attachments/assets/8d2558f1-f064-4233-90c7-5963bd6b2f54" />
 
 ### Document Upload
+<img width="850" alt="Screenshot 2025-08-14 at 5 12 48 PM" src="https://github.com/user-attachments/assets/0bc5e7f7-4a84-4660-bc42-90861d0c1a0d" />
+
+### Document View and Information Extraction Page
+<img width="850" alt="Screenshot 2025-08-12 at 10 59 47 AM" src="https://github.com/user-attachments/assets/f4ff9895-d173-4fb5-8479-6159b19e72b5" />
+
+### Review Page
+<img width="850" alt="Screenshot 2025-08-12 at 11 00 03 AM" src="https://github.com/user-attachments/assets/7e7bd8c9-6a41-4471-8a70-e333291cd150" />
+
+### Submission Page
+<img width="850" alt="Screenshot 2025-08-12 at 11 00 13 AM" src="https://github.com/user-attachments/assets/3504a152-00a7-4144-a147-c0a6a95a91b5" />
 
 ### Confirmation Page
+<img width="850" alt="Screenshot 2025-08-12 at 11 00 38 AM" src="https://github.com/user-attachments/assets/8e40330a-a7ee-4fd7-ab7f-1d5e8cef3f5a" />
 
 ## Getting Started
 
