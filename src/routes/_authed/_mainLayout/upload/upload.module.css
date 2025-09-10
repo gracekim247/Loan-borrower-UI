@@ -1,0 +1,64 @@
+.navbar {
+  background: linear-gradient(180deg, var(--mantine-color-gray-0) 0%, var(--mantine-color-white) 100%);
+  border-right: 1px solid var(--mantine-color-gray-3);
+  transition: width var(--mantine-transition-duration) ease;
+  overflow: hidden;
+}
+
+.navbarHover {
+  width: 230px !important;
+}
+
+.userButton {
+  width: 100%;
+  padding: var(--mantine-spacing-xs);
+  border-radius: var(--mantine-radius-sm);
+  transition: background-color var(--mantine-transition-duration) ease;
+}
+
+.userButton:hover {
+  background-color: var(--mantine-color-gray-0);
+}
+
+.sectionHeader {
+  cursor: pointer;
+  padding: var(--mantine-spacing-sm);
+  border-radius: var(--mantine-radius-xs);
+  transition: background-color var(--mantine-transition-duration) ease;
+}
+
+.sectionHeader:hover {
+  background-color: var(--mantine-color-gray-0);
+}
+
+.sectionCard {
+  border-radius: var(--mantine-radius-sm);
+  overflow: hidden;
+}
+
+.iconBoxOwner {
+  background-color: var(--mantine-color-lime-1);
+  color: var(--mantine-color-lime-6);
+  border: 1px solid var(--mantine-color-lime-6);
+  border-radius: var(--mantine-radius-sm);
+  margin-right: var(--mantine-spacing-xs);
+  padding: 5px;
+}
+
+.iconBoxGuarantor {
+  background-color: var(--mantine-color-violet-1);
+  color: var(--mantine-color-violet-7);
+  border: 1px solid var(--mantine-color-violet-7);
+  border-radius: var(--mantine-radius-md);
+  margin-right: var(--mantine-spacing-xs);
+  padding: 5px;
+}
+
+.iconBoxBusiness {
+  background-color: var(--mantine-color-pink-1);
+  color: var(--mantine-color-pink-6);
+  border: 1px solid var(--mantine-color-pink-6);
+  border-radius: var(--mantine-radius-md);
+  margin-right: var(--mantine-spacing-xs);
+  padding: 5px;
+}

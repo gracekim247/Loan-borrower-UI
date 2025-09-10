@@ -1,0 +1,43 @@
+.businessIcon {
+    background-color: var(--mantine-color-pink-1);
+    color: var(--mantine-color-pink-6);
+    border: 1px solid var(--mantine-color-pink-6);
+    border-radius: var(--mantine-radius-md);
+    margin-right: var(--mantine-spacing-xs);
+    padding: 5px;
+} 
+
+.flexBox {
+    flex: 1;
+}
+
+.radioGroup {
+  margin-bottom: var(--mantine-spacing-xs);
+} 
+
+.subtext {
+    color: var(--mantine-color-gray-7);
+}
+
+.descriptionText {
+    color: var(--mantine-color-gray-7);
+}
+
+.table {
+	width: 100%;
+	background: transparent;
+    overflow: hidden;
+    min-width: 700;
+}
+
+.th,
+.td
+{
+	font-family: inherit;
+	color: var(--mantine-color-text);
+}
+
+.th {
+	background: var(--mantine-color-gray-1);
+}
+

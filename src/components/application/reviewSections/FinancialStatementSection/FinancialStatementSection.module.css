@@ -1,0 +1,116 @@
+.financialStatementCard {
+	background: var(--mantine-color-gray-0); 
+	border-radius: var(--mantine-radius-md);
+	padding: var(--mantine-spacing-xl) var(--mantine-spacing-xl) var(--mantine-spacing-xl) var(--mantine-spacing-xl);
+}
+
+.container {
+	width: 100%;
+}
+
+.table {
+	width: 100%;
+	background: transparent;
+}
+
+.thead {
+	background: var(--mantine-color-gray-1); 
+}
+
+.th,
+.labelCell,
+.inputCell {
+	font-family: inherit;
+	color: var(--mantine-color-text);
+}
+
+.th {
+	background: var(--mantine-color-gray-1);
+}
+
+.thAmount {
+	background: var(--mantine-color-gray-1);
+	width: 140px;
+	text-align: left;
+}
+
+.inputCell {
+	text-align: left;
+}
+
+.totalCell {
+	text-align: left;
+	padding: 0 var(--mantine-spacing-sm);
+}
+
+.input {
+	border: none;
+	background: transparent;
+	box-shadow: none;
+	text-align: left;
+	font-family: inherit;
+	height: 32px;
+	width: 100%;
+	outline: none;
+}
+
+.input:focus {
+	outline: 1px solid var(--mantine-color-gray-5);
+    border-radius: 0;
+	background: var(--mantine-color-gray-0);
+}
+
+.totalsRow {
+	background: var(--mantine-color-gray-0);
+}
+
+.netWorthLabel {
+	font-weight: 600;
+}
+
+.netWorthValue {
+	font-weight: 600;
+	text-align: left;
+	padding: 0 var(--mantine-spacing-sm);
+    font-size: var(--mantine-font-size-sm)
+}
+
+.negativeValue {
+	color: var(--mantine-color-error);
+}
+
+.iconBox {
+	display: flex;
+	align-items: center;
+	height: 48px;
+}
+
+.dateLabel {
+	color: var(--mantine-color-gray-6);
+}
+
+.dateInput {
+	height: 40px;
+	border-color: var(--mantine-color-gray-4);
+}
+
+.trustLabel {
+	color: var(--mantine-color-dark);
+}
+
+@media (max-width: 900px) {
+	.financialStatementCard {
+		padding: var(--mantine-spacing-md) var(--mantine-spacing-xs) var(--mantine-spacing-md) var(--mantine-spacing-xs);
+	}
+	.th,
+	.td,
+	.inputCell,
+	.labelCell {
+		padding: var(--mantine-spacing-xs) var(--mantine-spacing-xs);
+		font-size: var(--mantine-font-size-sm);
+	}
+	.input {
+		font-size: var(--mantine-font-size-sm);
+		height: 28px;
+	}
+}

@@ -1,0 +1,67 @@
+.navbar {
+  background: linear-gradient(180deg, var(--mantine-color-gray-0) 0%, var(--mantine-color-white) 100%);
+  border-right: 1px solid var(--mantine-color-gray-3);
+  transition: width var(--mantine-transition-duration) ease;
+  overflow: hidden;
+}
+
+.navbarHover {
+  width: 230px !important;
+}
+
+.header {
+  padding-left: var(--mantine-spacing-xl);
+  padding-right: var(--mantine-spacing-md);
+  width: 100%;
+  height: 100%;
+}
+
+.mainContent {
+  margin: auto;
+  padding-bottom: 5%;
+}
+
+.successIcon {
+  width: 50px;
+  height: 50px;
+  background-color: var(--mantine-color-green-1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--mantine-spacing-xs);
+}
+
+.nextStepsPaper {
+  width: 50%;
+}
+
+.stepIcon {
+  flex-shrink: 0;
+  margin-top: 2px;
+  margin: auto;
+}
+
+.stepContent {
+  flex: 1;
+}
+
+.stepTitle {
+  color: var(--mantine-color-gray-6);
+}
+
+.footer {
+  margin-left: var(--mantine-spacing-xl);
+  padding: var(--mantine-spacing-md);
+}
+
+.userButton {
+  width: 100%;
+  padding: var(--mantine-spacing-xs);
+  border-radius: var(--mantine-radius-sm);
+  transition: background-color var(--mantine-transition-duration) ease;
+}
+
+.userButton:hover {
+  background-color: var(--mantine-color-gray-0);
+} 

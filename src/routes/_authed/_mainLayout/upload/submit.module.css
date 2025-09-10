@@ -1,0 +1,93 @@
+.navbar {
+  background: linear-gradient(180deg, var(--mantine-color-gray-0) 0%, var(--mantine-color-white) 100%);
+  border-right: 1px solid var(--mantine-color-gray-3);
+  transition: width var(--mantine-transition-duration) ease;
+  overflow: hidden;
+}
+
+.navbarHover {
+  width: 230px !important;
+}
+
+.header {
+  padding-left: var(--mantine-spacing-xl);
+  padding-right: var(--mantine-spacing-md);
+  width: 100%;
+  height: 100%;
+}
+
+.mainContent {
+  margin: auto;
+  width: 25%;
+  padding-bottom: 3%;
+}
+
+.documentSection {
+  border: 1px solid var(--mantine-color-gray-3);
+}
+
+.sectionTitle {
+  font-size: var(--mantine-font-size-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--mantine-color-gray-6);
+  letter-spacing: 0.5px;
+}
+
+.documentItem {
+  border: 1px solid var(--mantine-color-gray-3);
+  border-radius: var(--mantine-radius-sm);
+  padding: var(--mantine-spacing-xs);
+}
+
+.documentItemComplete {
+  opacity: 1;
+}
+
+.documentItemIncomplete {
+  opacity: 0.8;
+}
+
+.statusIcon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statusIconComplete {
+  background-color: var(--mantine-color-green-1);
+  border: none;
+}
+
+.statusIconIncomplete {
+  background-color: var(--mantine-color-yellow-1);
+  border: 1px solid var(--mantine-color-yellow-4);
+}
+
+.noteTextarea {
+  background-color: var(--mantine-color-gray-0);
+  border: 1px solid var(--mantine-color-gray-3);
+}
+
+.submitButton {
+  width: 100%;
+}
+
+.footer {
+  margin-left: var(--mantine-spacing-xl);
+  padding: var(--mantine-spacing-md);
+}
+
+.userButton {
+  width: 100%;
+  padding: var(--mantine-spacing-xs);
+  border-radius: var(--mantine-radius-sm);
+  transition: background-color var(--mantine-transition-duration) ease;
+}
+
+.userButton:hover {
+  background-color: var(--mantine-color-gray-0);
+} 

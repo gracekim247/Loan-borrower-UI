@@ -1,0 +1,86 @@
+.root {
+  background: transparent;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.steps {
+  gap: 0;
+}
+
+.step {
+  background: transparent;
+  min-width: 90px;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+}
+
+.step[data-progress] {
+  background: var(--mantine-color-white);
+}
+
+.step[data-completed] {
+  background: transparent;  
+}
+
+.stepIcon {
+  border-radius: 50%;
+  background: transparent;
+  color: var(--mantine-color-dimmed); 
+  border: 1px solid var(--mantine-color-default-border); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--mantine-font-size-xs);
+  font-weight: bold;
+  min-width: 20px;
+  min-height: 20px;
+}
+
+.stepIcon[data-progress] {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+.stepIcon[data-completed] {
+  background: transparent;
+  color: var(--mantine-color-dimmed);
+  border: 1px solid var(--mantine-color-default-border);
+}
+
+.stepLabel {
+  color: var(--mantine-color-dimmed); 
+  font-weight: 500;
+  font-size: var(--mantine-font-size-sm);
+}
+
+.step[data-progress] .stepLabel {
+  color: black;
+}
+
+.stepLabel[data-completed] {
+  color: var(--mantine-color-dimmed);
+  font-weight: 500;
+}
+
+.separator {
+  background: transparent !important;
+  height: auto !important;
+  margin: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+}
+
+.separator::before {
+  content: "›";
+  font-size: 20px;
+  color: var(--mantine-color-dimmed);
+  line-height: 1;
+}

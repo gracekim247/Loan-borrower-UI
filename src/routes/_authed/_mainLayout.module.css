@@ -1,0 +1,75 @@
+.navbar {
+  background: linear-gradient(180deg, var(--mantine-color-gray-0) 0%, var(--mantine-color-white) 100%);
+  border-right: 1px solid var(--mantine-color-gray-3);
+  transition: width var(--mantine-transition-duration) ease;
+  overflow: hidden;
+}
+
+.navbarHover {
+  width: 230px !important;
+}
+
+.header {
+    padding-left: var(--mantine-spacing-xl);
+    padding-right: var(--mantine-spacing-md);
+    width: 100%;
+    height: 100%;
+}
+
+.userIcon {
+	width: 40px;
+	height: 40px;
+}
+
+.linkList {
+	width: 100%;
+}
+
+.loaderContainer {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+.userButton {
+  width: 100%;
+  padding: var(--mantine-spacing-xs);
+  border-radius: var(--mantine-radius-sm);
+  transition: background-color var(--mantine-transition-duration) ease;
+}
+
+.userButton:hover {
+  background-color: var(--mantine-color-gray-0);
+}
+
+.fixedHeader {
+  position: fixed;
+  top: 0;
+  left: var(--navbar-width, 70px);
+  right: 0;
+  z-index: var(--mantine-z-index-app);
+  background: var(--mantine-color-white);
+  transition: left var(--mantine-transition-duration) ease;
+}
+
+/* When navbar is expanded, adjust header position */
+.navbarHover ~ .mantine-AppShell-header {
+  left: 230px;
+}
+
+.uploadHeader {
+  width: 100%;
+  height: 100%;
+}
+
+.defaultHeader {
+  width: 100%;
+  height: 100%;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+}

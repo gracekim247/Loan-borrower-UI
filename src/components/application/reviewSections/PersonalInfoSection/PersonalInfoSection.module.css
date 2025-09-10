@@ -1,0 +1,57 @@
+.container {
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .container {
+    padding: var(--mantine-spacing-md);
+  }
+  
+  .sectionTitle {
+    font-size: var(--mantine-font-size-lg); 
+  }
+  
+  .sectionSubtitle {
+    font-size: var(--mantine-font-size-md);
+  }
+}
+
+/* Form field focus states */
+:global(.mantine-TextInput-input:focus),
+:global(.mantine-Select-input:focus),
+:global(.mantine-DatePicker-input:focus) {
+  border-color: var(--mantine-color-anchor);
+  box-shadow: 0 0 0 1px var(--mantine-color-anchor);
+}
+
+/* Error states */
+:global(.mantine-TextInput-error),
+:global(.mantine-Select-error),
+:global(.mantine-DatePicker-error) {
+  font-size: var(--mantine-font-size-xs);/*12px;*/
+  margin-top: var(--mantine-spacing-xs);
+  color: var(--mantine-color-error); /*#e03131;*/
+}
+
+/* Button styles */
+:global(.mantine-Button-root) {
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+:global(.mantine-Button-root:hover) {
+  transform: translateY(-1px);
+}
+
+/* Required field indicator */
+:global(.mantine-TextInput-required),
+:global(.mantine-Select-required) {
+  color: var(--mantine-color-error);
+  margin-left: var(--mantine-spacing-xs);
+}
+
+.importedLabel {
+  color: var(--mantine-color-violet-6);
+  font-weight: 500;
+}
